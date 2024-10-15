@@ -1,4 +1,4 @@
-# Project Title
+# Ablocks
 
 This project is built using React with BEM methodology for structuring CSS. It also utilizes raw CSS and a couple of helpful npm packages for added functionality.
 
