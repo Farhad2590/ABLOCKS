@@ -1,8 +1,18 @@
-# React + Vite
+# Project Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React with BEM methodology for structuring CSS. It also utilizes raw CSS and a couple of helpful npm packages for added functionality.
 
-Currently, two official plugins are available:
+## Live Demo
+[Click here to view the live demo](https://ablocks-task.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- **React**: For building the UI components.
+- **BEM**: We followed the Block Element Modifier (BEM) methodology to structure our CSS, ensuring modularity and reusability.
+- **CSS**: Raw CSS was used for styling without any pre-processors like Sass or Less.
+
+## NPM Packages Used
+
+- **react-sortable-hoc**: This package was used for implementing sortable drag-and-drop functionality within the React components. It allows for reordering lists smoothly.
+-**array-move**: This package was used in conjunction with react-sortable-hoc to efficiently manage the reordering of arrays based on the drag-and-drop actions.
+
