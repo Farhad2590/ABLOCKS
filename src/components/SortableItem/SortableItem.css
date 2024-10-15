@@ -1,0 +1,74 @@
+.kzui-sortable-item {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.kzui-sortable-item:hover {
+    background-color: #e5e5e6;
+}
+
+.kzui-sortable-item__title-container {
+    flex: 1;
+    text-align: left;
+}
+
+.kzui-sortable-item__title {
+    font-weight: bold;
+}
+
+.kzui-sortable-item__color-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.kzui-sortable-item__color-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.kzui-sortable-item__color {
+    color: #666;
+    border: 2px solid #ccc;
+}
+
+.kzui-sortable-item__more-options-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.kzui-sortable-item__options-menu {
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.kzui-sortable-item__options-menu button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.kzui-sortable-item__options-menu button:hover {
+    background-color: #f0f0f0;
+}

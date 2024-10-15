@@ -1,0 +1,133 @@
+.kzui-settings {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.kzui-settings__heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.kzui-settings__content {
+    display: flex;
+    gap: 20px;
+}
+
+.kzui-settings__section {
+    border: 2px solid #e5e5e6;
+    border-radius: 16px;
+    padding: 0px 20px;
+}
+
+.kzui-settings__section__title {
+    margin-bottom: 10px;
+}
+
+.kzui-settings__section--menu {
+    width: 25%;
+}
+
+.kzui-settings__section--design {
+    width: 75%;
+}
+
+.kzui-settings__menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kzui-settings__menu-item {
+    display: flex;
+    align-items: center;
+}
+.kzui-settings__menu-item-selected{
+    background: #e5e5e6;
+    border-radius: 16px;
+}
+
+.kzui-settings__menu-icon {
+    margin-right: 10px;
+}
+
+.kzui-settings__menu-text {
+    font-size: 16px;
+}
+
+.kzui-settings__section--design {
+    flex: 1;
+}
+
+.kzui-settings__design-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.kzui-settings__design-item {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.kzui-settings__section--design {
+    flex: 1;
+}
+
+.kzui-settings__design-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom:  2px solid #e5e5e6;
+    border-top:  2px solid #e5e5e6;
+    border-radius: 4px;
+}
+
+.kzui-settings__design-menu {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kzui-settings__design-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.kzui-settings__design-item--color {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-radius: 4px;
+}
+
+.kzui-settings__search-input {
+    padding: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding-left: 24px;
+}
+.kzui-settings__input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.kzui-settings__icon {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kzui-settings__text--gray{
+    color: #74777c;
+}
+.kzui-table__heading{
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,28 @@
+
+.kzui-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 12px;
+    background-color: #ffff; 
+    border-bottom: 2px solid #e5e5e6;
+}
+
+.kzui-nav__logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kzui-nav__links {
+    display: flex;
+    gap: 32px;
+}
+
+.kzui-nav__link {
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.kzui-nav__link--active {
+    border-bottom: 2px solid black;
+}
