@@ -14,5 +14,6 @@ This project is built using React with BEM methodology for structuring CSS. It a
 ## NPM Packages Used
 
 - **react-sortable-hoc**: This package was used for implementing sortable drag-and-drop functionality within the React components. It allows for reordering lists smoothly.
--**array-move**: This package was used in conjunction with react-sortable-hoc to efficiently manage the reordering of arrays based on the drag-and-drop actions.
+
+- **array-move**: This package was used in conjunction with react-sortable-hoc to efficiently manage the reordering of arrays based on the drag-and-drop actions.
 
