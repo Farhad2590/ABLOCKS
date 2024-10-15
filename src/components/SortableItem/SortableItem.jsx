@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { SortableElement } from 'react-sortable-hoc';
 import './SortableItem.css';
+import image from '../../assets/Vectors.png'
 
 const SortableItem = SortableElement(({ item, onEdit, onDuplicate, onDelete }) => {
     const [options, setOptions] = useState(false);
@@ -20,6 +21,7 @@ const SortableItem = SortableElement(({ item, onEdit, onDuplicate, onDelete }) =
             }}
         >
             <div className="kzui-sortable-item__title-container">
+                <img src={image} alt="" />
                 <span className="kzui-sortable-item__title">{item.title}</span>
             </div>
 
